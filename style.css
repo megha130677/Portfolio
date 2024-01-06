@@ -212,6 +212,7 @@
     border-radius: 10px;
     position: relative;
     overflow:hidden;
+    
   }
   
   .work img {
@@ -404,8 +405,53 @@
       margin-right: 20px;
     }
   }
-  #dfd{
-    justify-content: center;
+  nav .fas{
+    display: none;
   }
-  
+    @media only screen and (max-width: 600px)
+    {
+    #header{
+    background-image: url ("IMG_2234_Original\ 2.jpg");
+    }
+    • header-text{
+    margin-top: 100%; 
+    font-size: 16px;
+    }
+    • header-text h1{ 
+        font-size: 30px;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    
+}
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    justify-content: right;
+}
   
